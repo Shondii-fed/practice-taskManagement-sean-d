@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border: 4px solid firebrick;
+  border-radius: 15px;
+}
+
+li, h2 {
+  list-style: none;
+  font-family: fantasy;
+
+}
+
+li {
+  margin: 4px auto;
+  font-size: 1.25em;
+  color: firebrick;
+  text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+  margin: 6px auto;
+  color: bisque;
+  font-size: 2.25em;
+  text-shadow: 2px 2px 2px firebrick;
+}
+
+nav, .home-link {
+  display: flex;
+  flex-direction: column;
+  font-family: fantasy;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  color: bisque;
+  text-shadow: 3px 3px 2px firebrick;
+}
+
+.home-link, .task-link {
+  text-decoration: none;
+  margin: 5px auto;
+  padding: 8px 12px;
+}
+
+.home-link {
+  color: lightblue;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.home-link:hover {
+  color: cadetblue;
+  text-decoration: underline;
+}
+
+.task-link {
+  color: firebrick;
+  border: 2px solid firebrick;
+  border-radius: 8px;
+  background-color: bisque;
+}
+
+.task-link:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  background-color: firebrick;
+  color: bisque;
+  border: 2px solid bisque;
+  box-shadow: 2px 2px 2px grey;
+}
